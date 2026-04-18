@@ -1,22 +1,26 @@
 body{
-  font-family: Arial;
+  font-family: Arial sans-serif;
   margin: 0;
   background: pink;
-  text-align: centre;
+  text-align: center;
 }
 
 header{
   background: pink
-    color: red, pink;
+    color: red;
   padding: 15px;
-  border-line: black;
+  border-line: 2px solid black;
 }
 
 nav a{
-  color: dark red;
+  color: darkred;
   margin: 10px;
   text-decoration: none;
   font-weight: bold;
+}
+
+nav a:hover{
+  text-decoration:underline;
 }
 
 section{
@@ -28,7 +32,7 @@ footer{
     color: red;
   padding: 10px;
   margin-top: 20px;
-  border-line: black;
+  border-line:2px solid black;
 }
 
 img{
