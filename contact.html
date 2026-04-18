@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatchMate | Contact</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    
     <header>
       <h1> Contact Us</h1>
       <nav>
@@ -16,8 +19,10 @@
       </nav>
     </header>
 
+    <main>
     <section>
-      <form action="#" method="post">
+      <h2>Get in Touch</h2>
+      <form>
         <label>Firstname:</label><br/>
         <input type ="text" name="firstname" required placeholder="Firstname"><br/>
 
@@ -26,12 +31,16 @@
 
         <label>Gender:</label>
 
-        <select id="gender" name="gender" required>
+        <label><input type="radio" name="gender">Male</label>
+        <label><input type="radio" name="gender">Female</label>
+        <label><input type="radio" name="gender">Other</label>
 
-          <option value="0"><Select></option>
-          <option value="F"><Female></option>
-          <option value="M"><Male></option>
-          
+        <label for="looking">Looking for:</label>
+        <select id="looking">
+          <option>Men</option>
+          <option>Women</option>
+          <option>Both</option>
+      
         </select><br/>
 
         <label>DateOfBirth:</label>
@@ -50,9 +59,10 @@
         <button type="submit">Send</button>
       </form>
     </section><br/>
+    </main>
 
     <footer>
-      <p>2026 MatchMate</p>
+      <p>&copy; 2026 MatchMate</p>
     </footer>
     
   </body>
