@@ -6,7 +6,7 @@ body{
 }
 
 header{
-  background: deeplovered;
+  background: deepred;
   color: white;
   padding: 15px;
   border-bottom: 3px winered;
@@ -19,9 +19,9 @@ nav a{
   font-weight: bold;
 }
 
-nav: hover{
+nav a: hover{
   text-decoration: underline;
-  color: lightpink;
+  color: softpink;
 }
 
 .hero img{
