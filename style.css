@@ -1,22 +1,22 @@
 body{
-  font-family: Arial sans-serif;
-  margin: 0;
-  background: lightpink;
-  text-align: center;
+  font-family:Arial sans-serif;
+  margin:0;
+  background:pink;
+  text-align:center;
 }
 
 header{
-  background: lightpink;
-  color: pink;
-  padding: 15px;
+  background:pink;
+  color:pink;
+  padding:15px;
   border-bottom: 2px solid black;
 }
 
 nav a{
-  color: burgundy;
-  margin: 10px;
-  text-decoration: none;
-  font-weight: bold;
+  color:pink;
+  margin:10px;
+  text-decoration:none;
+  font-weight:bold;
 }
 
 nav a:hover{
@@ -28,26 +28,26 @@ nav a:hover{
   max-width:400px;
 
 section{
-  padding: 20px;
+  padding:20px;
 }
 
 footer{
   background:lightpink;
-  color: red;
-  padding: 10px;
-  margin-top: 20px;
+  color:red;
+  padding:10px;
+  margin-top:20px;
   border-top:2px solid black;
 }
 
 img{
-  width: 250px;
-  margin: 10px;
-  border-radius: 10px;
+  width:250px;
+  margin:10px;
+  border-radius:10px;
 }
 
 .profile{
-  display: inline-block;
-  margin: 15px;
+  display:inline-block;
+  margin:15px;
 }
 
 form{
@@ -74,5 +74,5 @@ button{
 }
 
 button-hover{
-  background:burgundy;
+  background:pink;
 }
