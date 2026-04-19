@@ -11,54 +11,77 @@
     <header>
       <h1> Contact Us</h1>
       <nav>
-         <a href="index.html">Home</a><br/>
-         <a href="about.html">About</a><br/>
-         <a href="gallery.html">Gallery</a><br/>
-         <a href="profile.html">Profile</a><br/>
-         <a href="contact.html">Contact</a><br/>
+         <a href="index.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="gallery.html">Gallery</a>
+         <a href="profile.html">Profile</a>
+         <a href="contact.html" class="active">Contact</a>
       </nav><br/>
     </header>
 
     <main>
-    <section>
+    <section class="form group">
       <h2>Get in Touch</h2>
+      <p class="subtitle">Start your journey to finding love.</p>
+      
       <form>
-        <label>Firstname:</label><br/>
-        <input type ="text" name="firstname" required placeholder="Firstname"><br/>
+        <div class="form-group">
+          <label>Firstname:</label>
+          <input type ="text" id="firstname" name="firstname" required placeholder="Enter your first name"><br/>
+        </div>
+        
+        <div class="form-group">
+          <label>Surname:</label>
+          <input type="text" id="surname" name="surname" required placholder="Enter your surname"/>
+        </div>
 
-        <label>Surname:</label>
-        <input type="text" name="surname" required placholder="Surname"/><br/>
+        <div class="form-group">
+          <label>Gender:</label>
+          <div class="radio-group">
+          <label><input type="radio" name="gender">Male</label>
+          <label><input type="radio" name="gender">Female</label>
+          <label><input type="radio" name="gender">Other</label>
+        </div>
+        </div>
 
-        <label>Gender:</label>
-
-        <label><input type="radio" name="gender">Male</label>
-        <label><input type="radio" name="gender">Female</label>
-        <label><input type="radio" name="gender">Other</label>
-
-        <label for="looking">Looking for:</label>
-        <select id="looking">
+        <div class="form-group">
+          <label for="looking">Looking for:</label>
+          <select id="looking">
           <option>Men</option>
           <option>Women</option>
           <option>Both</option>
-      
-        </select><br/>
+        </select>
+        </div>
 
-        <label>DateOfBirth:</label>
-        <input type="date" name="dateofbirth" required placeholder="Date Of Birth"><br/>
+        <div class="form-group">
+          <label>DateOfBirth:</label>
+          <input type="date" name="dateofbirth" required>
+        </div>
 
-        <label>Cellno:</label>
-        <input type="tel" name="cellno" required placeholder= "+267 XX XXX XXX"><br/>
+        <div class="form-group">
+          <label>Cellno:</label>
+          <input type="tel" id="cell" name="cellno" required placeholder= "+267 XX XXX XXX">
+        </div>
         
 
-        <label>Email:</label><br>
-        <input type ="email" name="email" required placeholder="Email"><br/>
+        <div class="form-group">
+          <label>Email:</label><br>
+          <input type ="email" id="email" name="email" required placeholder="Enter your email">
+        </div>
 
-        <label>Message:</label><br>
-        <textarea name="message" required></textarea><br/>
+        <div class="form-group">
+          <label>Message:</label><br>
+          <textarea name="message" id="message" rows="4"required placeholder="Tell us about yourself..."></textarea>
+        </div>
+        
 
-        <button type="submit">Send</button>
+        <div class="button-group">
+          <button type="submit">Send Message</button>
+          <button type="reset" class="secondary">Clear</button>
+        </div>
+        
       </form>
-    </section><br/>
+    </section>
     </main>
 
     <footer>
