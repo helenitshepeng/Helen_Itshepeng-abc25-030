@@ -7,9 +7,9 @@ body{
 
 header{
   background:pink;
-  color:pink;
+  color:red;
   padding:15px;
-  border-bottom: 2px solid black;
+  border-line:2px solid black;
 }
 
 nav a{
@@ -32,11 +32,11 @@ section{
 }
 
 footer{
-  background:lightpink;
+  background:pink;
   color:red;
   padding:10px;
   margin-top:20px;
-  border-top:2px solid black;
+  border-line:2px solid black;
 }
 
 img{
@@ -48,6 +48,10 @@ img{
 .profile{
   display:inline-block;
   margin:15px;
+  width:200px;
+  padding:10px;
+  background:pink;
+  border-radius:10px;
 }
 
 form{
