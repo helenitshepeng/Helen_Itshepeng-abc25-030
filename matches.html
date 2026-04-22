@@ -41,7 +41,7 @@
         <p class="match-percentage">85% Match</p>
         <p>Adventurous, loves travelling</p>
 
-        <div class="button">
+        <div class="buttons">
           <button onclick="dislike(this)">❌</button>
           <button onclick="like(this, 'Julian')">❤️</button>
           
@@ -80,7 +80,7 @@
       <h3 id="chatName"></h3>
       <p>Hello there!</p>
       <input type="text" placeholder="Type a message...">
-      <butoon onclick="closeChat()">Close</butoon>  
+      <button onclick="closeChat()">Close</butoon>  
       
     </div>
 
@@ -90,8 +90,8 @@
 
   <script>
     function like(btn, name) {
-      const card = btn.closest('match-card');
-      card.classList.add('swipe-right');
+      const card = btn.closest('.match-card');
+      card.class.List.add('swipe-right');
 
       setTimeout(() => {
         card.style.display = "none";
@@ -100,10 +100,10 @@
     }
 
     function dislike(btn, name) {
-      const card = btn.closest('match-card');
+      const card = btn.closest('.match-card');
       card.class.List.add('swipe-left');
 
-      srtTimeout(() =< {
+      setTimeout(() =< {
         card.style.display = "none";
       openChat(name);
       }, 500);
