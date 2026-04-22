@@ -89,9 +89,9 @@
     </footer>
 
   <script>
-    function like(button, name) {
+    function like(btn, name) {
       const card = btn.closest('.match-card');
-      card.class.List.add('swipe-right');
+      card.classList.add('swipe-right');
 
       setTimeout(() => {
         card.style.display = "none";
@@ -99,11 +99,11 @@
       }, 500);
     }
 
-    function dislike(btn, name) {
+    function dislike(btn) {
       const card = btn.closest('.match-card');
-      card.class.List.add('swipe-left');
+      card.classList.add('swipe-left');
 
-      setTimeout(() =< {
+      setTimeout(() => {
         card.style.display = "none";
       openChat(name);
       }, 500);
