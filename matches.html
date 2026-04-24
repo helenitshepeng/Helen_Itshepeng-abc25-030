@@ -54,7 +54,7 @@
         <p class="match-percentage">73%</p>
         <p>Bookworm, Coffee lover</p>
 
-        <div class="button">
+        <div class="buttons">
           <button onclick="dislike(this)">❌</button>
           <button onclick="like(this, 'Vanessa')">❤️</button>
           
@@ -67,7 +67,7 @@
         <p class="match-percentage">70%</p>
         <p>Model with passion of fashion</p>
 
-        <div class="button">
+        <div class="buttons">
            <button onclick="dislike(this)">❌</button>
           <button onclick="like(this, 'Laurel')">❤️</button>
           
@@ -79,9 +79,9 @@
     <div id="chatBox" class="chat-box">
       <h3 id="chatName"></h3>
         <div id="chatMessages" class="chat-messages"></div>
-      <input type="text" placeholder="Type a message...">
+      <input type="text" id="chatInput" placeholder="Type a message...">
         <button onclick="sendMessage()">Send</button>
-      <button onclick="closeChat()">Close</butoon>  
+      <button onclick="closeChat()">Close</button>  
       
     </div>
 
@@ -111,7 +111,7 @@
 
     function openChat(name) {
       document.getElementById("chatBox").style.display="block";
-      document.getElementById("chatName").innerText="Chat with" + name;
+      document.getElementById("chatName").innerText="Chat with " + name;
     }
 
     function closeChat() {
@@ -153,7 +153,7 @@ function sendMessage() {
 
       document.getElementById("chatInput").addEventListener("keypress", function (e){
           if (e.key === "Enter") {
-          sendMessage(): 
+          sendMessage();
           }
       });     
                                                             
