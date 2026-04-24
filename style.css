@@ -101,7 +101,7 @@ input, select, textarea{
     padding: 40px;
 }
 
-.matches-card{
+.match-card{
     background: linear-gradient(145deg, #ffffff, #ffe6eb);
     width: 280px;
     padding: 20px;
